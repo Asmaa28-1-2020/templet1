@@ -1,0 +1,81 @@
+/* pricing section */
+.pricing-palns{
+    overflow: hidden;
+}
+.pricing-palns-item{
+    width: 28%;
+    float:left;
+    border: 1px  solid #999;
+    text-align: center;
+    padding: 40px 0;
+   
+}
+.pricing-palns-item.mg{
+    margin: 0 5%;
+}
+.pricing-palns-item-text{
+    text-transform: uppercase;
+    color: rgb(214, 211, 211)
+}
+.permonth{
+    width: 60px;
+    height: 60px;
+    padding: 15px 15px;
+    margin: 11px auto;
+    /* background-color: red; */
+    text-align: center;
+    border: 2px solid #6195ff;
+ 
+    border-radius: 50%}
+
+    .dolar{
+        font-size: 30px;
+        font-weight: bold;
+        transition: color .6s;  
+    }
+    .month{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 13px;
+         color:black;
+        transition: color .6s; 
+    }
+    .pricing-palns-item-list li{
+        color:#9999;
+        /
+    }
+    .pricing-palns-item-list{
+        list-style: none;
+    }
+    .button{
+    border: 0;  
+    display: block;
+    background: none;
+    width: 127px;
+    margin: 10px auto 0px auto;
+    padding: 8px;
+    border: #6195ff;
+    border: 2px solid #6195ff;
+    color: #6195ff;
+    text-transform: capitalize;
+    }
+    .section-header {
+        padding-bottom: 30px;
+    }
+   
+    .pricing-palns-item:hover:after{
+       height: 100%;
+       opacity: 1;
+      
+    }
+
+    .pricing-palns-item:hover .pricing-palns-item-text{
+        color:#6195ff;
+    }
+
+   .pricing-palns-item:hover .dolar{
+       color:white;
+   }
+   .pricing-palns-item:hover .month{
+       color:white;
+   }

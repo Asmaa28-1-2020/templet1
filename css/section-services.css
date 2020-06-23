@@ -1,0 +1,62 @@
+ /* 3-4 servises section */
+ .servise-content{
+    overflow: hidden;
+  
+}
+.servise-content .servise-item{
+    width:23%;
+    float:left;
+    border: 1px solid #e8e8e8;
+    padding: 20px 10px 30px 60px;
+    position: relative;
+}
+
+.servise-item.mg{
+    margin: 0 3%;
+}
+.servise-item .servise-title{
+    text-transform: capitalize;
+
+}
+.servise-item  i{
+    position: absolute;
+    left: 10px;
+    top:20px;
+    color:#6195ff;   
+}
+.servise-item .servise-desc{
+    color:#8999;
+}
+.effect,.tbreffect{
+    position: relative;
+}
+.effect:after,.tbreffect:after{
+position: absolute;
+content: "";
+top:0%;
+left:0%;
+right:0%;
+bottom:0%;
+background-color: #333;
+z-index:-1;  
+}
+.effect:after{
+width:0;
+transition: width .6s;
+}
+
+
+
+.tbreffect:after{
+height:0;
+transition: height .6s;
+
+}
+
+
+.servise-item:hover:after{
+width:100%;
+}
+.servise-item:hover .servise-title{
+color:white;
+}

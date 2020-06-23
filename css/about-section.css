@@ -1,0 +1,36 @@
+ /* 3-section about */
+ .about-content{
+    overflow: hidden;
+    margin-top: 40px;
+
+}
+.about-content .item{
+    float:left;
+    width:30%;
+    text-align: center;
+    border:1px solid #e8e8e8;
+    padding: 35px 5px
+}
+.item.mg{
+    margin:0 3%;
+}
+.item .icone{
+    color:royalblue;
+}
+.item .item-title{
+   
+    transition:color .3s;
+}
+ .about-link{
+   text-transform:capitalize; 
+}
+.item .item-desc{
+    line-height:1.6;
+    color:#8999
+}
+ .item:hover::after{
+    width:100%; 
+} 
+.item:hover .item-title{
+    color:white;
+}
